@@ -1,10 +1,7 @@
 <template>
   <div>
-    <login></login>
+    <router-view></router-view>
   </div>
 </template>
-<script setup>
-import { ref, onMounted } from 'vue'
-import login from './page/login.vue'
-</script>
+<script setup></script>
 <style scoped></style>

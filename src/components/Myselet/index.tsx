@@ -6,16 +6,16 @@ interface SeleType {
   total: number;
 }
 export default defineComponent({
-  // props: {
-    // Warehouse: {
-    //   type: String as PropType<string>,
-    //   default: null,
-    // },
-    // dataList: {
-    //   type: Array as PropType<Array<SeleType>>,
-    //   required: true,
-    // },
-  // },
+ /*  props: {
+    Warehouse: {
+      type: String as PropType<string>,
+      default: null,
+    },
+    dataList: {
+      type: Array as PropType<Array<SeleType>>,
+      required: true,
+    },
+  }, */
   // emits: ["childSelect"],
   setup(props, ctx) {
     // const { emit } = ctx;
