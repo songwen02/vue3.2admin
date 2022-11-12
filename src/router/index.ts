@@ -23,7 +23,6 @@ const routes = createRouter({
   ]
 })
 
-
 export default routes;
 
 
