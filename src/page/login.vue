@@ -1,7 +1,10 @@
 <template>
-  <div>11</div>
+  <div>
+    <Myselet></Myselet>
+  </div>
 </template>
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
+import Myselet from '../components/Myselet/index'
 </script>
 <style scoped></style>

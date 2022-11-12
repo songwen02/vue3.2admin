@@ -5,8 +5,7 @@ import path from 'path'
 /* Unocss 样式库 */
 import Unocss from 'unocss/vite'
 /* tsx */
-// @ts-ignore
-import Jsx from 'vite-plugin-jsx'
+import VueJsx from '@vitejs/plugin-vue-jsx'
 
 export default defineConfig({
   base: './',
@@ -19,6 +18,6 @@ export default defineConfig({
   plugins: [
     vue(),
     Unocss({}),
-    
+    VueJsx(),
   ]
 })
