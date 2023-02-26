@@ -6,7 +6,7 @@
     <span class="ml-5 text-10">4</span>
   </div>
 </template>
-<script setup>
-import { ref, onMounted } from 'vue'
+<script setup lang="ts">
+import { ref, onMounted } from "vue";
 </script>
 <style scoped lang="scss"></style>
